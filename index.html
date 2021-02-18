@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TODO App</title>
     <link rel="stylesheet" href="Style.css">
+
     <!-- font link -->
+    <script src="https://kit.fontawesome.com/207ef960a8.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
 
 </head>
 
@@ -17,31 +20,25 @@
 <body>
 
     <div class="heading">
-<h1> <span> TODO</span>  List</h1>
+        <h1> <span> TODO</span> List</h1>
     </div>
 
     <div class="container">
         <input type="text" id="todo_item" maxlength="30" placeholder="New Item....">
-        <button onclick="addItem()" ><i class="fas fa-plus-circle"></i></button>
-        <button onclick="delAll()" ><i class="fas fa-trash-alt"></i></button>
+        <button onclick="addItem()"><i class="fas fa-plus-circle"></i></button>
+        <button onclick="delAll()"><i class="fas fa-trash-alt"></i></button>
 
-    </div>    
+    </div>
 
     <div class="list_box">
         <ul id="item_list">
 
-<!-- <li>aman <button>DELETE</i></button> <button>EDIT</button></li> -->
+            <!-- <li>aman <button>DELETE</i></button> <button>EDIT</button></li> -->
 
         </ul>
 
     </div>
-
-
-
-
-
-
 </body>
-<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 <script src="app.js"></script>
+
 </html>
