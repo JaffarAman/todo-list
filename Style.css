@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightpink;
+}
+.container{
+    display: flex;
+    justify-content: center;   
+    flex-wrap: wrap;
+    /* background-color: black; */
+    margin-top: 10px;
+    
+}
+.container input{
+    width: 300px;
+    height: 40px;
+    outline: none;
+    margin-right:10px ;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold !important;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+}
+
+.container button{
+    margin-right:15px ;
+    height: 40px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    background: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-weight: bold;
+    cursor: pointer;
+    /* font-style: italic; */
+    margin-top: 5px;
+
+}
+
+.list_box{
+    /* background-color: blue; */
+    text-align: center;
+     margin-top: 50px;
+     padding-left: 10px;
+     padding-right: 10px;
+    }
+
+.list_box li {
+    font-family: 'Langar', cursive;
+    /* margin-left:20px; */
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+    font-size: 30px;
+    list-style-type: none;    
+    overflow-wrap: break-word;
+}
+
+.edititem ,.delitem{
+    font-size: 25px;
+    border: none;
+    background-color: transparent;
+    color:black;
+    margin-left: 10px;
+}
+
+/* .delitem{
+    margin-left:100px;
+
+} */
+
+
+.heading{
+    text-align: center;
+    font-family: 'Langar', cursive;
+    border-bottom: 2px solid black;
+    background-color: lightcoral;
+    height: 70px;
+    padding-top: 10px;   
+    box-sizing: border-box;
+    
+}
+.heading span{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.fa-plus-circle , .fa-trash-alt{
+    font-size: 30px;
+}
+ 
